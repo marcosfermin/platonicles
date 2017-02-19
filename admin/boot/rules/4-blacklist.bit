@@ -1,0 +1,16 @@
+<?php
+/*
+ * platonicles
+ * http://www.platonicles.com
+
+ * Require
+ *
+
+ * Return
+ *
+*/
+
+if($_DB_USERS->blacklist())
+	exit('platonicles security error - Blacklist protection');
+
+?>

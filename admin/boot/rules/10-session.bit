@@ -1,0 +1,18 @@
+<?php
+/*
+ * platonicles
+ * http://www.platonicles.com
+
+ * Require
+ *
+
+ * Return
+ *
+*/
+
+if( !isset($_SESSION['platonicles']) )
+{
+	Session::init();
+}
+
+?>

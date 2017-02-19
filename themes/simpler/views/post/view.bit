@@ -1,0 +1,15 @@
+<?php
+
+// Post template
+include('post.bit');
+
+// Disqus comments
+include('disqus_comments.bit');
+
+// Facebook comments
+include('facebook_comments.bit');
+
+// platonicles comments
+include('platonicles_comments.bit');
+
+?>
